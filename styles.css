@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    width: 100%
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-side{
+    width: 40%;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+.logo-container{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.354);
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 150px;
+    display: inline-block;
+}
+
+
+h1{
+    font-size: 7rem;
+    color: #F8FAFB;
+    display: inline-block;
+    font-weight: 300;
+}
+
+input, label{
+    display: block;
+}
+
+.right-side{
+    width: 60%;
+    background-color: #F8FAFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header>p{
+    font-size: 1.6rem;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.form-section{
+    padding: 30px 0  50px 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.21);
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+form>p{
+    font-size: 1.7rem;
+}
+
+.input-pair{
+    display: flex;
+    gap: 70px;
+}
+
+.input-pair>div{
+    display: inline-block;
+}
+
+.button-section{
+    margin-top: 40px;
+    padding-left: 50px;
+    
+}
+
+
+form label{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+input{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px rgba(0, 0, 0, 0.236) solid;
+    font-size: 1rem;
+    font-weight: 300;
+    padding:10px;
+}
+
+input:focus{
+    outline:1px rgb(43, 43, 231) solid;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.115);
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.button-section>p{
+    font-size: 1.1rem;
+}
+
+.button-section>p>span{
+    color: #6e7961;
+}
+
+button{
+    color: white;
+    font-size: 1.3rem;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6e7961;
+}
+
+input:focus:invalid{
+    outline: 1px red solid;
+}
+
+.error{
+    font-size: 0.8rem;
+    position: absolute;
+    color: red;
+}
